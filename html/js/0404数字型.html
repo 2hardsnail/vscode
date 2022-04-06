@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //1.八进制0-7 我们程序里面数字前面加0表示八进制
+        var num1 = 010; //010转换为十进制就是8
+        console.log(num1);
+        var num2 = 013;
+        console.log(num2);
+        //2.十六进制 0-9 a-f 数字前面加0x表示十六进制
+        var num3 = 0x9;
+        console.log(num3);
+        //3.数字型的最大值
+        console.log(Number.MAX_VALUE);
+        //4.数字型的最小值
+        console.log(Number.MIN_VALUE);
+        //5.无穷大
+        console.log(Number.MAX_VALUE * 2); //infinity无穷大
+        //6.无穷小
+        console.log(-Number.MAX_VALUE * 2); // -infinity无穷小
+        //7.非数值
+        console.log('cxd' - 100); //NaN
+        //isNaN()这个方法用来判断非数字 并且返回一个值 如果是数字返回的false 如果不是数字返回的true
+        console.log(isNaN(123));
+        console.log(isNaN('cxd'));
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>背景图片</title>
+    <style>
+        div {
+            width: 700px;
+            height: 600px;
+            background-image: url(images/2022.jpg);
+            /* 不要落下url */
+            background-repeat: no-repeat;
+            /* 1.背景图片不平铺 */
+            /* 2.默认情况下背景图片是平铺的 */
+            /* background-repeat: repeat-x; */
+            /* 3.背景图像在横向上平铺 */
+            background-color: rgba(0, 0, 0, 0.5);
+            background-position: 50px 20px;
+            /* 此时参数是精确单位 */
+            /* 50px 20px;x轴一定是50，y轴一定是20 */
+            /* background-position: 20px 50px; */
+            /* 20px 50px;x轴一定是20，y轴一定是50 */
+            /* background-position: left; */
+            /* 此时，第一个参数水平一定是靠左侧对齐 第二个参数省略，y轴是垂直居中显示的 */
+            /* background-position: top; */
+            /* 此时，第一个参数一定是topy轴 x轴是水平居中显示的 */
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>

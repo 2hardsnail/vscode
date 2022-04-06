@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表格语法</title>
+    <style>
+        table {
+            width: 400px;
+            height: 100px;
+        }
+        
+        table,
+        td,
+        th {
+            border: 1px solid red;
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!--这些属性要写到表格标签table里面去-->
+    <table align="center" border="1" cellpadding="5" cellspacing="0" width="600">
+        <tr>
+            <th>姓名</th>
+            <th>性别</th>
+            <th>年龄</th>
+            <th>爱好</th>
+        </tr>
+        <tr>
+            <td>陈辛迪</td>
+            <td>女</td>
+            <td>21</td>
+            <td>张世林</td>
+        </tr>
+        <tr>
+            <td>张世林</td>
+            <td>男</td>
+            <td>23</td>
+            <td>陈辛迪</td>
+        </tr>
+
+    </table>
+    <table align="center" border="1" cellspacing="0">
+        <thead>
+            <tr>
+                <th>排名</th>
+                <th>关键词</th>
+                <th>趋势</th>
+                <th>进入搜索</th>
+                <th>最近七日</th>
+                <th>相关链接</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>鬼吹灯</td>
+                <td><img src="down.jpg"></td>
+                <td>456</td>
+                <td>123</td>
+                <td><a href="#">贴吧</a> <a href="#">图片</a> <a href="#">百科</a> </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>盗墓笔记</td>
+                <td><img src="down.jpg"></td>
+                <td>124</td>
+                <td>675342</td>
+                <td><a href="#">贴吧</a> <a href="#">图片</a> <a href="#">百科</a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

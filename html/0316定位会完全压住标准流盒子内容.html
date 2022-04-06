@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>定位会完全压住标准流盒子内容</title>
+    <style>
+        .box {
+            /* float: left; */
+            /* 浮动的元素不会压住下面标准流的内容 */
+            position: absolute;
+            /* 绝对定位(固定)会压住标准流所有的内容 */
+            width: 150px;
+            height: 150px;
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+    <p>阁下何不同风起,扶摇直上九万里</p>
+
+</html>

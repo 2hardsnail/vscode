@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>列表标签</title>
+</head>
+
+<body>
+    <h4>我喜欢的食物</h4>
+    <ul>
+        <li>烤冷面</li>
+        <li>糖葫芦</li>
+        <li>臭豆腐</li>
+    </ul>
+    <dl>
+        <dt>联系我们</dt>
+        <dd>售后服务</dd>
+        <dd>小米之家</dd>
+    </dl>
+    <form>
+        用户名：<input type="text" /><br/> 密码：
+        <input type="password" /><br>
+        <!-- name是表单元素名字 这里性别单选按钮必须有相同的名字name,才可以实现多选一 -->
+        <!-- 单选按钮和复选框可以设置checked属性，当页面打开的时候就可以默认选中这个按钮 -->
+        性别 男 <input type="radio" name="sex"> 女 <input type="radio" name="sex" checked="checked"><br>
+        <!-- 点击了提交按钮可以把表单域form里面的表单元素里面的值提交给后台服务器 -->
+        吃饭 <input type="checkbox"> 睡觉<input type="checkbox"> 打豆豆<input type="checkbox"><br>
+        <input type="submit" value="免费注册">
+        <input type="reset" value="重新填写" />
+        <!-- 普通按钮button -->
+        <input type="button" value="获取短信验证码" />
+        <!-- 文件域 上传文件使用的 -->
+        上传头像：<input type="file" />
+        <!-- 下拉表单 -->
+        <select>
+            <option>北京</option>
+            <option>上海</option>
+            <option>天津</option>
+        </select>
+    </form>
+    <form>
+        今日反馈：<textarea></textarea>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 确定版心 */
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.body {
+    background-color: #f3f5f7;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    height: 42px;
+    margin: 30px auto;
+}
+
+.logo {
+    float: left;
+    height: 42px;
+    width: 198px;
+}
+
+.nav {
+    float: left;
+    margin-left: 60px;
+    /* 这个nav导航栏可以不给宽度，将来可以继续添加其他文字 */
+}
+
+.nav ul li {
+    float: left;
+    /* 让导航栏一行显示，给li加浮动，因为li是块级元素，需要一行显示 */
+    margin: 0 15px;
+}
+
+.nav ul li a {
+    display: block;
+    height: 42px;
+    padding: 0 10px;
+    line-height: 42px;
+    font-size: 18px;
+    color: #050505;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    border-bottom: 2px solid #00a4ff;
+}
+
+
+/* 搜索栏模块 */
+
+.search {
+    float: left;
+    width: 412px;
+    height: 42px;
+    margin-left: 50px;
+}
+
+.search input {
+    float: left;
+    width: 345px;
+    height: 40px;
+    border: 1px solid blue;
+    border-right: 0;
+    color: #bfbfbf;
+    padding-left: 15px;
+}
+
+.search button {
+    float: left;
+    width: 50px;
+    height: 42px;
+    /* 按钮button默认有个边框，需要我们手动去掉 */
+    border: 0;
+    background: url(../images/btn.png);
+}
+
+.user {
+    float: right;
+    line-height: 42px;
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+
+/* banner区域 */
+
+.banner {
+    height: 421px;
+    background-color: #1c036c;
+}
+
+.banner .w {
+    height: 421px;
+    background-color: pink;
+    background: url(../images/banner2.png) no-repeat top center;
+}

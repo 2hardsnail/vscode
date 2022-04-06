@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浮动布局练习2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        li {
+            list-style: none;
+            /* margin-right: 14px; */
+        }
+        
+        .box {
+            height: 285px;
+            width: 1226px;
+            background-color: pink;
+            margin: 0 auto;
+        }
+        
+        .box li {
+            height: 285px;
+            width: 296px;
+            background-color: purple;
+            float: left;
+            margin-right: 14px;
+        }
+        
+        .box .last {
+            margin-right: 0;
+        }
+        /* 这里必须写.box.last 要注意权重的问题20 */
+    </style>
+</head>
+
+<body>
+    <ul class="box">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li class="last"></li>
+
+    </ul>
+</body>
+
+</html>

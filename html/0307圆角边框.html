@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>圆角边框</title>
+    <style>
+        .yuan {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            /* border-radius: 10px; */
+            /* border-radius: 100px; */
+            border-radius: 50%;
+            /* 50%就是宽度和高度的一半 等价于100px */
+        }
+        
+        .juxing {
+            width: 300px;
+            height: 100px;
+            background-color: pink;
+            border-radius: 50px;
+        }
+        
+        .radius {
+            height: 200px;
+            width: 200px;
+            background-color: blue;
+            border-radius: 10px 20px 30px 40px;
+            /* 顺时针:分别代表左上 右上 右下 左下 */
+            border-radius: 10px 40px;
+        }
+    </style>
+
+</head>
+
+<body>
+    1.圆形的做法
+    <div class="yuan"></div>
+    2.圆角矩形的做法
+    <div class="juxing"></div>
+    3.可以设置不同的圆角
+    <div class="radius"></div>
+</body>
+
+</html>

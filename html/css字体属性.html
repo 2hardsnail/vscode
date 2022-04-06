@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css字体属性之字体系列</title>
+    <style>
+        h2 {
+            font-family: 'Microsoft YaHei';
+            font-size: 18px;
+            font-weight: 400;
+            /* font-weight：400等同于normal */
+        }
+        /* 700的后面不要跟单位 等价于bold，都是加粗的效果 */
+        /* 实际开发中更提倡用数字加粗或者变细 */
+        
+        .bold {
+            font-weight: 700;
+        }
+        
+        body {
+            font-size: 16px;
+        }
+        /* 标题标签比较特殊，需要单独指定文字大小,千万不能忘记加px这个单位，px是像素 */
+        
+        p {
+            font-style: italic;
+        }
+        
+        div {
+            /* font-style: italic; */
+            /* italic代表斜体 */
+            /* font-weight: 700;代表字体加粗 */
+            /* font-size: 16px; */
+            /* font-family: 'Microsoft YaHei'; */
+            /* 复合属性：简写的方式 */
+            /* font：font-style font-weight  font-size  font-family  必须严格按照属性顺序来写，不能更换顺序，并且各个属性间可以空格隔开*/
+            font: italic 700 16px 'Microsoft YaHei'
+        }
+    </style>
+</head>
+
+<body>
+    <h2>网易云音乐</h2>
+    <p>我叫陈辛迪</p>
+    <p class="bold">wolaizihenan</p>
+    <p>我来自河南</p>
+    <p>喜欢听的音乐</p>
+    <p>张世林</p>
+    <div>斛珠夫人</div>
+</body>
+
+</html>
