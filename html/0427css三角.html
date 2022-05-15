@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>三角制作</title>
+    <style>
+        .box1 {
+            width: 0;
+            height: 0;
+            /* border: 10px solid pink; */
+            border-top: 10px solid green;
+            border-right: 10px solid gold;
+            border-bottom: 10px solid blue;
+            border-left: 10px solid pink;
+        }
+        
+        .box2 {
+            margin: 100px auto;
+            width: 0;
+            height: 0;
+            border: 10px solid transparent;
+            border-bottom: 20px solid pink;
+            ;
+        }
+        
+        .jd {
+            position: relative;
+            width: 120px;
+            height: 249px;
+            background-color: pink;
+        }
+        
+        .jd span {
+            width: 0;
+            height: 0;
+            right: 15px;
+            top: -20px;
+            position: absolute;
+            /* 为什么要加绝对定位 */
+            border: 10px solid transparent;
+            /* border: 10px solid skyblue; */
+            border-bottom-color: skyblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="jd">
+        <span></span>
+    </div>
+</body>
+
+</html>
